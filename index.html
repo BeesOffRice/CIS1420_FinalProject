@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pf.css">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <script src="favs.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="siteName">Portfolio :]</li>
+            <li class="navLinks"><a href="index.html">Home</a></li>
+            <li class="navLinks"><a href="courses.html">Courses</a></li>
+            <li class="navLinks"><a href="#favContainer">Favorites</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="bioContainer">
+            <div class="bioContent">
+                <img src="imgs/pfp.png" alt="Drawing of the person who made this page.">
+            </div>
+
+            <div class="bioContent">
+                <p id="bioDesc">
+                    Hi, my name is Dasha Demetria, and I'm currently a student studying at Oakland Community College.
+                    I'm currently studying software engineering, but I do a lot of art stuff on the side.
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="favContainer">
+            <h1>For fun, here's some stuff I liked watching:</h1>
+
+            <div class="tab">
+                <button class="tabLinks" onclick="openTab(event,'skip')">Skip And Loafer</button>
+                <button class="tabLinks" onclick="openTab(event,'jrwi')">JRWI</button>
+                <button class="tabLinks" onclick="openTab(event,'sgdr')">Link Click</button>
+            </div>
+            <article class="tabItem" id="skip">
+                <h2>Skip and Loafer</h2>
+                <p>A coming-of-age story about a country girl navigating life after moving to Tokyo for the first time.
+                </p>
+                <iframe width="930" height="523" src="https://www.youtube.com/embed/yU7AJxVOZKQ"
+                    title="Skip and Loafer | OFFICIAL TRAILER"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+            <article class="tabItem" id="jrwi">
+                <h2>Just Roll With It</h2>
+                <p>A D&D podcast following three pirates who aren't very good at being pirates, but are good at helping
+                    everyone they run into.</p>
+                <iframe width="930" height="523" src="https://www.youtube.com/embed/Urto8Im0B1U"
+                    title="Starting From Zero | Just Roll With It #1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+            <article class="tabItem" id="sgdr">
+                <h2>Link Click</h2>
+                <p>A fun twist on time travel where the main character jumps into photos and temporarily become the
+                    people in them during the time it was taken</p>
+                <iframe width="930" height="523" src="https://www.youtube.com/embed/HxoR_7jVBCM"
+                    title="LINK CLICK | Official Trailer"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

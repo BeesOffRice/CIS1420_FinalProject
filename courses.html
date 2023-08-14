@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="courses.css">
+    <title>Courses</title>
+    <link rel="icon" type="images/x-icon" href="imgs/icons8-books-16.png">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="siteName">Portfolio :]</li>
+            <li class="navLinks"><a href="index.html">Home</a></li>
+            <li class="navLinks"><a href="courses.html">Courses</a></li>
+            <li class="navLinks"><a href="index.html#favContainer">Favorites</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div id="courseListContainer">
+            <h1>Courses</h1>
+            <table>
+                <caption>Computer Courses I've taken from OCC</caption>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course Info</th>
+                    <th>Semester Taken</th>
+                </tr>
+                <tr>
+                    <td>CIS 1500</td>
+                    <td>Intro to Programming (Java)</td>
+                    <td>Fall 2022</td>
+                </tr>
+                <tr>
+                    <td>CIS 2111</td>
+                    <td>Systems Analysis and Design</td>
+                    <td>Fall 2022</td>
+                </tr>
+                <tr>
+                    <td>CIS 2353</td>
+                    <td>Data Structures</td>
+                    <td>Winter 2023</td>
+                </tr>
+                <tr>
+                    <td>CIS 2151</td>
+                    <td>Object Oriented Programming (Java)</td>
+                    <td>Winter 2023</td>
+                </tr>
+                <tr>
+                    <td>CIS 1300</td>
+                    <td>Networking Concepts</td>
+                    <td>Summer 2023</td>
+                </tr>
+                <tr>
+                    <td>CIS 2252</td>
+                    <td>Object Oriented Programming (C++)</td>
+                    <td>Summer 2023</td>
+                </tr>
+                <tr>
+                    <td>CIS 1420</td>
+                    <td>HTML5 Programming</td>
+                    <td>Summer 2023</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h1>Some Notable projects</h1>
+            <article>
+                <h2>Card Game</h2>
+                <p>For a class I took at Oakland University, we had a group project where we made a card game using
+                    Unity. The card game worked
+                    like this:</p>
+                <blockquote> 2 players are dealt cards.
+                    Each player drags a card to the center, which either heals themselves or damages their opponents.
+                    The players play until one player runs out of hp or the time runs out.</blockquote>
+
+                <p>I handled some of the art assets, the health/damage system, the dice roll, the turn system, and the
+                    drag
+                    and drop functionality.
+                    We also learned about the scrum process during the making of this project.
+                </p>
+                <figure>
+                    <img src="imgs/fish.png" alt="A photo of one of the cards used in the game">
+                    <figcaption>One of the cards used in the game we programmed</figcaption>
+                </figure>
+
+            </article>
+            <article>
+                <h2>Library System</h2>
+                <p>This project was done for <abbr title="Object Oriented Programming(Java)">CIS-2141</abbr>. I created
+                    a
+                    Java
+                    application that acted as a pseudo library that you could rent and return books from. I had to
+                    program a sort of database
+                    for users and books that could be edited, added to, deleted, and accessed in general. I also had to
+                    make sure that each user could
+                    perform several other functions like checking what books are available, or renting or returning
+                    books. This was my first
+                    time working with hashMaps, and I learnt many convenient methods for sorting and creating classes.
+                </p>
+            </article>
+            <article>
+                <h2>Maze Game</h2>
+                <p>In <abbr title="Intro to Programming (Java)">CIS-1500</abbr> the final project was to make a maze
+                    minigame using JavaFX.
+                    The player would start in the center of the maze, and could choose a room to move into. The room
+                    would either generate
+                    a random monster, or be empty. Once no monsters a in the room, the player could search the room for
+                    gold and select a new room to
+                    go into. I programmed this project using a 2d array as the base for the maze, and then separating
+                    each type of task or character
+                    into different class to make programming easier.
+                </p>
+
+            </article>
+        </div>
+    </main>
+
+</body>
+
+</html>
